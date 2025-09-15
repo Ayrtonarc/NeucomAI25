@@ -4,10 +4,10 @@ import styles from './Navbar.module.css';
 const Navbar = () => (
   <nav className={styles.navbar}>
     <div className={styles.container}>
-      <a className={styles.brand} href="#">
+      <span className={styles.brand}>
         {/* <img src="/Isotipo principal.png" alt="NeeucomAI" className={styles.logo} /> */}
         <span className={styles.title}>NeeucomAI</span>
-      </a>
+      </span>
     </div>
   </nav>
 );
