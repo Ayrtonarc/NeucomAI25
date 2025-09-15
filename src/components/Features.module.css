@@ -1,0 +1,29 @@
+.featuresSection {
+  padding: 2.5rem 1rem;
+  background: #fff;
+}
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  background: #f8f8f8;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem 1.5rem;
+  max-width: 320px;
+  flex: 1 1 260px;
+  text-align: center;
+}
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+.cardText {
+  color: #444;
+  font-size: 1rem;
+}

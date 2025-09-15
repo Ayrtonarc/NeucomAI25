@@ -1,0 +1,40 @@
+.privacySection {
+  padding: 2.5rem 1rem;
+  background: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+.noticeBox {
+  background: #f8f8f8;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem 1.5rem;
+}
+.summary {
+  margin-bottom: 1rem;
+  color: #444;
+}
+.list {
+  margin-bottom: 1rem;
+  color: #444;
+}
+.fullNotice {
+  background: #fff;
+  border-radius: 0.7rem;
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #444;
+}
+.fullNotice h5 {
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  color: #222;
+}

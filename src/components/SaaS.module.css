@@ -1,0 +1,35 @@
+.saasSection {
+  padding: 2.5rem 1rem;
+  background: #fff;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+.tableWrapper {
+  overflow-x: auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f8f8f8;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table th, .table td {
+  padding: 0.7rem 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.table th {
+  background: #fff;
+  font-weight: 500;
+  color: #222;
+}
+.table tr:last-child td {
+  border-bottom: none;
+}

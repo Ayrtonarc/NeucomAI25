@@ -1,0 +1,40 @@
+.faqSection {
+  padding: 2.5rem 1rem;
+  background: #fff;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.item {
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+  background: #f8f8f8;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+.question {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  text-align: left;
+  padding: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+.answer {
+  padding: 1rem;
+  color: #444;
+  font-size: 1rem;
+  border-top: 1px solid #eee;
+}
